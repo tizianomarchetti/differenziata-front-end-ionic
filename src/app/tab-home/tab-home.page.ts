@@ -33,7 +33,10 @@ export class TabHomePage {
               title: "Title",
               body: "Body",
               id: 1,
-              schedule: { at: new Date(Date.now() + 1000 * 5) },
+              schedule: { 
+                at: new Date(Date.now() + 1000 * 5) ,
+                allowWhileIdle: true
+              },
               actionTypeId: "",
               extra: null
             }
