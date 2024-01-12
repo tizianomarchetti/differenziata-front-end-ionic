@@ -1,0 +1,7 @@
+{
+  "name": "differenziata-front-end-ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
