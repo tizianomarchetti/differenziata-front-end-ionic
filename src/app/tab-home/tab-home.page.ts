@@ -17,7 +17,7 @@ export class TabHomePage {
   }
 
   async enableNotification() {
-    console.log("abilitando notifiche")
+    console.log("abilitando notifiche");
 
     await LocalNotifications.checkPermissions().then(res => {
       if (res.display !== 'granted') {
